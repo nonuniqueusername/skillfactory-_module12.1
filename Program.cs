@@ -20,7 +20,7 @@
 
             foreach (User user in users)
             {
-                Console.WriteLine(user.Name);
+                Console.WriteLine($"Hi {user.Name}");
                 if (!user.IsPremium)
                 {
                     ShowAds();
